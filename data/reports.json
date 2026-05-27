@@ -1,0 +1,112 @@
+[
+  {
+    "id": "r001",
+    "caseId": "DE-101",
+    "office": "Berlin Ausländerbehörde (LEA Berlin)",
+    "city": "berlin",
+    "date": "2026-04-15",
+    "visaType": "Work Visa",
+    "outcome": "approved",
+    "waitDays": 127,
+    "month": "2026-04"
+  },
+  {
+    "id": "r002",
+    "caseId": "DE-102",
+    "office": "Munich KVR (Kreisverwaltungsreferat)",
+    "city": "munich",
+    "date": "2026-03-20",
+    "visaType": "Blue Card",
+    "outcome": "rejected",
+    "waitDays": 45,
+    "month": "2026-03"
+  },
+  {
+    "id": "r003",
+    "caseId": "DE-103",
+    "office": "Hamburg Einwanderungsbehörde",
+    "city": "hamburg",
+    "date": "2026-05-01",
+    "visaType": "Freelance Visa",
+    "outcome": "pending",
+    "waitDays": 67,
+    "month": "2026-05"
+  },
+  {
+    "id": "r004",
+    "caseId": "DE-101",
+    "office": "Berlin Ausländerbehörde (LEA Berlin)",
+    "city": "berlin",
+    "date": "2026-04-22",
+    "visaType": "Blue Card",
+    "outcome": "approved",
+    "waitDays": 98,
+    "month": "2026-04"
+  },
+  {
+    "id": "r005",
+    "caseId": "DE-102",
+    "office": "Munich KVR (Kreisverwaltungsreferat)",
+    "city": "munich",
+    "date": "2026-04-10",
+    "visaType": "Student Visa",
+    "outcome": "approved",
+    "waitDays": 32,
+    "month": "2026-04"
+  },
+  {
+    "id": "r006",
+    "caseId": "DE-101",
+    "office": "Cologne Ausländeramt",
+    "city": "cologne",
+    "date": "2026-05-05",
+    "visaType": "Family Reunification",
+    "outcome": "pending",
+    "waitDays": 155,
+    "month": "2026-05"
+  },
+  {
+    "id": "r007",
+    "caseId": "DE-103",
+    "office": "Frankfurt Ausländerbehörde",
+    "city": "frankfurt",
+    "date": "2026-04-28",
+    "visaType": "Work Visa",
+    "outcome": "rejected",
+    "waitDays": 88,
+    "month": "2026-04"
+  },
+  {
+    "id": "r008",
+    "caseId": "DE-101",
+    "office": "Berlin Ausländerbehörde (LEA Berlin)",
+    "city": "berlin",
+    "date": "2026-05-10",
+    "visaType": "Settlement Permit",
+    "outcome": "approved",
+    "waitDays": 212,
+    "month": "2026-05"
+  },
+  {
+    "id": "r009",
+    "caseId": "DE-102",
+    "office": "Munich KVR (Kreisverwaltungsreferat)",
+    "city": "munich",
+    "date": "2026-05-12",
+    "visaType": "Freelance Visa",
+    "outcome": "rescheduled",
+    "waitDays": 0,
+    "month": "2026-05"
+  },
+  {
+    "id": "r010",
+    "caseId": "DE-103",
+    "office": "Hamburg Einwanderungsbehörde",
+    "city": "hamburg",
+    "date": "2026-05-15",
+    "visaType": "Blue Card",
+    "outcome": "approved",
+    "waitDays": 56,
+    "month": "2026-05"
+  }
+]
