@@ -1,0 +1,18 @@
+{
+  "id": "DE-110",
+  "slug": "munich-kvr-blue-card-salary-threshold-shortage",
+  "office": "KVR München - Ausländerabteilung",
+  "city": "Munich",
+  "state": "Bavaria",
+  "visa_type": "Blue Card",
+  "category": "Blue Card delays",
+  "situation": "Software engineer with a job offer at a Munich startup. Annual gross salary was €44,500, which fell below the 2026 Blue Card threshold of €45,552. HR had not accounted for the annual threshold adjustment.",
+  "rejection_reason": "Salary offer did not meet the minimum annual gross salary threshold for Blue Card under §18b AufenthG. KVR required the salary to meet or exceed the current BMAS-set threshold.",
+  "what_worked": "Negotiated a salary adjustment with the employer to €46,000 gross. New employment contract submitted to KVR. Processing resumed and Blue Card was issued 3 weeks later.",
+  "what_failed": "Arguing that a variable bonus would push total compensation above the threshold. Offering to show bank statements from the home country as financial proof. Requesting exception processing as a STEM professional.",
+  "days_to_resolve": 28,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/blue_card_salary_threshold_munich_kvr_2026"
+}

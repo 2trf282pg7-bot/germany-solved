@@ -1,0 +1,18 @@
+{
+  "id": "DE-111",
+  "slug": "hamburg-einwanderungsbehoerde-blue-card-missing-apostille",
+  "office": "Einwanderungsbehörde Hamburg",
+  "city": "Hamburg",
+  "state": "Hamburg",
+  "visa_type": "Blue Card",
+  "category": "Blue Card delays",
+  "situation": "Applied for Blue Card in Hamburg. University degree from Brazil submitted without an Apostille. The certified translation was accepted, but the original document lacked required official authentication under the Hague Convention.",
+  "rejection_reason": "Degree certificate not apostilled as required under the Hague Apostille Convention. Hamburg immigration requires original apostilled documents for degree verification.",
+  "what_worked": "Contacted the Brazilian consulate in Hamburg, who forwarded the apostille request to Brazil. Received apostilled degree within 6 weeks via DHL. Submitted to the office and case was finalized within 5 business days.",
+  "what_failed": "Offering a notarized copy without an apostille. Providing a university transcript in addition to the degree. Requesting a grace period while the apostille was being obtained.",
+  "days_to_resolve": 52,
+  "cost_eur": 85,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/hamburg/comments/blue_card_apostille_brazil_degree_einwanderungsbehoerde"
+}

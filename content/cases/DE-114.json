@@ -1,0 +1,18 @@
+{
+  "id": "DE-114",
+  "slug": "tk-health-insurance-rejected-pre-existing-condition-thyroid",
+  "office": "Techniker Krankenkasse (TK) - Online Application",
+  "city": "Berlin",
+  "state": "Berlin",
+  "visa_type": "Blue Card",
+  "category": "Health insurance rejections",
+  "situation": "Applied to TK for statutory health insurance as a new Blue Card holder. TK's automated system rejected the application after a pre-existing thyroid condition (hypothyroidism) was declared in the health questionnaire.",
+  "rejection_reason": "Pre-existing condition flagged during automated review. While statutory health insurance (GKV) cannot legally reject applicants on this basis, the automated system issued an incorrect rejection letter.",
+  "what_worked": "Escalated to TK's Widerspruchsstelle (appeals department) citing §175 SGB V, which prohibits rejection of mandatory GKV members. TK reversed the decision within 72 hours and issued membership confirmation. Pre-existing conditions are covered from day 1 under GKV.",
+  "what_failed": "Accepting the rejection and applying to AOK instead (would have reset the entire process). Trying to omit the health condition from the form. Applying through the employer HR portal instead of directly.",
+  "days_to_resolve": 4,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/tk_rejected_pre_existing_thyroid_sgbv_appeal"
+}

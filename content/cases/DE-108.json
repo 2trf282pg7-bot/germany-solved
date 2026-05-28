@@ -1,0 +1,18 @@
+{
+  "id": "DE-108",
+  "slug": "cologne-stadthaus-nord-anmeldung-address-mismatch",
+  "office": "Stadthaus Nord Bürgeramt Köln",
+  "city": "Cologne",
+  "state": "North Rhine-Westphalia",
+  "visa_type": "Blue Card",
+  "category": "Anmeldung",
+  "situation": "The address on the Wohnungsgeberbestätigung used the official postal format, but the building's registered address in the city database had a different suffix (14a vs 14A). The IT system flagged this as a mismatch requiring manual verification.",
+  "rejection_reason": "Address discrepancy between the landlord form and the city's official property registry. System flagged '14a' vs '14A' as a potential mismatch, halting automatic processing.",
+  "what_worked": "Staff escalated to a supervisor who performed a manual database lookup and confirmed it was the same property. Registration completed after a 20-minute wait. Supervisor noted the known system issue in the file.",
+  "what_failed": "Bringing utility bills as additional address proof (not accepted as primary evidence). Showing the apartment key. Trying to re-book at a different branch to avoid the database issue.",
+  "days_to_resolve": 1,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/cologne/comments/anmeldung_address_database_mismatch_stadthaus"
+}

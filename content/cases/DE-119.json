@@ -1,0 +1,18 @@
+{
+  "id": "DE-119",
+  "slug": "fintiba-blocked-account-showing-incorrect-balance-visa-delay",
+  "office": "German Embassy Tokyo - Visa Section",
+  "city": "Tokyo",
+  "state": "N/A",
+  "visa_type": "Student Visa",
+  "category": "Blocked account / Visa denial",
+  "situation": "Applied for a student visa at the German Embassy in Tokyo. The Fintiba blocked account held the correct balance, but the official certificate issued by Fintiba showed the previous year's required amount (€10,332) instead of the current 2026 requirement (€11,208).",
+  "rejection_reason": "Blocked account certificate showed an amount below the current minimum required under the 2026 BAföG reference rate. Embassy denied the application citing §16 AufenthG insufficient financial proof.",
+  "what_worked": "Contacted Fintiba support via live chat. They identified a document generation error and issued a corrected certificate within 24 hours. Resubmitted to the embassy and visa was approved in the next processing cycle.",
+  "what_failed": "Arguing the old amount was sufficient based on when the account was opened. Submitting a bank statement showing additional personal savings to cover the gap. Trying to top up the account and generate a new certificate without first fixing the document error.",
+  "days_to_resolve": 7,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/fintiba_blocked_account_wrong_certificate_embassy_tokyo"
+}

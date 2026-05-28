@@ -1,0 +1,18 @@
+{
+  "id": "DE-120",
+  "slug": "coracle-blocked-account-funds-not-released-after-arrival",
+  "office": "Coracle Financial - Customer Support",
+  "city": "Berlin",
+  "state": "Berlin",
+  "visa_type": "Student Visa",
+  "category": "Blocked account / Visa denial",
+  "situation": "Arrived in Germany and opened an N26 account to receive monthly Coracle disbursements. Coracle required a confirmed SEPA bank account before releasing funds. N26's account opening process took 3 weeks, leaving the student without access to blocked funds during the critical first month.",
+  "rejection_reason": "Funds not released due to pending bank account verification. Coracle's system could not initiate SEPA disbursements without a confirmed German IBAN linked to the account.",
+  "what_worked": "Escalated to Coracle's complaints department with the N26 account opening confirmation email as interim proof. Coracle released the first month's funds after a manual review. Subsequent disbursements were automatically processed once the IBAN was fully verified.",
+  "what_failed": "Providing a foreign bank account IBAN (not accepted for SEPA disbursements). Asking family abroad to send emergency funds (caused confusion in bank records). Trying to link the account before N26 issued the official IBAN confirmation.",
+  "days_to_resolve": 23,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/coracle_blocked_account_n26_disbursement_delay_berlin"
+}

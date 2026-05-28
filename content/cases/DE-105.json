@@ -1,0 +1,18 @@
+{
+  "id": "DE-105",
+  "slug": "munich-schwabing-anmeldung-subletting-permission-missing",
+  "office": "Bürgerbüro München-Schwabing",
+  "city": "Munich",
+  "state": "Bavaria",
+  "visa_type": "Blue Card",
+  "category": "Anmeldung",
+  "situation": "Renting a room from a tenant (not the property owner) in Munich-Schwabing. The primary tenant signed the Wohnungsgeberbestätigung but staff demanded written subletting permission from the actual property owner.",
+  "rejection_reason": "The Wohnungsgeberbestätigung was signed by the primary tenant, not the property owner. Office required proof that subletting was permitted by the Eigentümer.",
+  "what_worked": "Obtained a written Untermieterlaubnis from the property management company (Hausverwaltung). Combined with the primary tenant's Wohnungsgeberbestätigung, this satisfied the requirement at the follow-up appointment.",
+  "what_failed": "Bringing the primary tenant to the appointment in person to vouch for the arrangement. Showing the original rental agreement for the main flat. Claiming the subletting was implicit in the lease.",
+  "days_to_resolve": 8,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/Munich/comments/subtenant_anmeldung_permission_schwabing"
+}

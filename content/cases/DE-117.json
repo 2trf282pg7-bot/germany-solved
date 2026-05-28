@@ -1,0 +1,18 @@
+{
+  "id": "DE-117",
+  "slug": "dak-rejected-student-visa-wrong-enrollment-certificate",
+  "office": "DAK-Gesundheit - Servicecenter München",
+  "city": "Munich",
+  "state": "Bavaria",
+  "visa_type": "Student Visa",
+  "category": "Health insurance rejections",
+  "situation": "International student at TU Munich applied for DAK student health insurance. Submitted an enrollment letter from the university's international office, but DAK required the official Immatrikulationsbescheinigung with a current semester stamp.",
+  "rejection_reason": "Enrollment confirmation from the International Office was not accepted — it lacked the official university seal and current semester enrollment stamp required by §5 SGB V for student membership status.",
+  "what_worked": "Obtained the official Immatrikulationsbescheinigung directly from TU Munich's Studierendenkanzlei via the online student portal. Document included all required stamps. Resubmitted and DAK confirmed membership the same day.",
+  "what_failed": "Submitting an unofficial enrollment confirmation email. Using a screenshot from the university's online portal. Asking the International Office to add a stamp to their letter.",
+  "days_to_resolve": 3,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/dak_student_wrong_enrollment_certificate_tu_munich"
+}

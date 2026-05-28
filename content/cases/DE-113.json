@@ -1,0 +1,18 @@
+{
+  "id": "DE-113",
+  "slug": "stuttgart-auslaenderbehoerde-blue-card-10-week-appointment-wait",
+  "office": "Ausländerbehörde Stuttgart",
+  "city": "Stuttgart",
+  "state": "Baden-Württemberg",
+  "visa_type": "Blue Card",
+  "category": "Blue Card delays",
+  "situation": "Arrived in Stuttgart for a new engineering job. The earliest appointment at Ausländerbehörde Stuttgart was 10 weeks out, creating a legal working status gap that the company's HR flagged as a compliance risk.",
+  "rejection_reason": "No appointment rejection — delay caused by severe backlog. Company HR noted risk of payroll complications without legal documentation within 90 days of arrival from a non-EU country.",
+  "what_worked": "Employer's Betriebsrat wrote a formal letter requesting priority processing due to a critical project role. Office issued an interim Fiktionsbescheinigung within 2 weeks confirming the right to work. Full Blue Card was issued at the originally scheduled appointment.",
+  "what_failed": "Calling the office to request an earlier slot (line consistently busy). Showing up early morning as a walk-in (turned away). Requesting emergency processing without the employer letter.",
+  "days_to_resolve": 72,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/stuttgart_blue_card_10_week_wait_fiktionsbescheinigung"
+}

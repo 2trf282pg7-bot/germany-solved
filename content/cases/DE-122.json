@@ -1,0 +1,18 @@
+{
+  "id": "DE-122",
+  "slug": "german-embassy-student-visa-denied-insufficient-blocked-account-amount",
+  "office": "German Embassy Seoul - Visa Section",
+  "city": "Seoul",
+  "state": "N/A",
+  "visa_type": "Student Visa",
+  "category": "Blocked account / Visa denial",
+  "situation": "Korean student applied for a 2-year Master's program in Germany. Set up a Fintiba blocked account with €10,500, which was the correct amount for 2024. The 2026 minimum had increased to €11,208 per year. Visa was denied without prior notification of the shortfall.",
+  "rejection_reason": "Blocked account balance of €10,500 did not meet the 2026 minimum requirement of €11,208. Embassy denied the application citing §16 AufenthG for insufficient proof of financial subsistence.",
+  "what_worked": "Topped up the Fintiba account by €708 to reach €11,208. Obtained an updated Fintiba certificate. Reapplied within 2 weeks. Visa approved on the second application. Added a note to check for annual updates to the required amount every January.",
+  "what_failed": "Appealing the decision arguing the original amount was correct when the account was opened. Providing scholarship offer letters as supplementary financial proof. Submitting parental income statements to cover the gap.",
+  "days_to_resolve": 21,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/student_visa_denied_insufficient_fintiba_amount_2026_seoul"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "DE-115",
+  "slug": "aok-berlin-rejected-self-employed-multiple-income-sources",
+  "office": "AOK Berlin-Brandenburg - Bezirksdirektion Mitte",
+  "city": "Berlin",
+  "state": "Berlin",
+  "visa_type": "Blue Card",
+  "category": "Health insurance rejections",
+  "situation": "Freelancer with Blue Card (Freiberufler classification) applied to AOK Berlin for statutory health insurance. Had income from three sources: consulting clients, affiliate revenue, and occasional employment contracts. AOK could not determine primary occupation for contribution calculation.",
+  "rejection_reason": "Application put on hold pending clarification of primary employment status. AOK required a formal Bescheid from Finanzamt confirming freelancer status and a prior-year income breakdown.",
+  "what_worked": "Submitted the Steuerbescheid from the previous year plus a written declaration of expected annual income split by source. AOK processed membership within 1 week. Contributions were set based on self-declared estimated income with annual reconciliation.",
+  "what_failed": "Submitting just the Gewerbeschein (trade license). Providing bank statements showing income deposits. Asking AOK to accept an accountant letter instead of the Finanzamt Bescheid.",
+  "days_to_resolve": 18,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/aok_freelancer_multiple_income_sources_membership"
+}

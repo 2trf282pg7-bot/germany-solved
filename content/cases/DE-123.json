@@ -1,0 +1,18 @@
+{
+  "id": "DE-123",
+  "slug": "german-embassy-freelance-visa-denied-insufficient-proof-of-funds",
+  "office": "German Embassy London - Visa Section",
+  "city": "London",
+  "state": "N/A",
+  "visa_type": "Freelance Visa",
+  "category": "Blocked account / Visa denial",
+  "situation": "British graphic designer applied for a German Freiberufler visa post-Brexit. Submitted bank statements showing €8,000 in savings. Embassy denied the visa citing insufficient financial reserves to cover the initial client acquisition phase without active German clients already secured.",
+  "rejection_reason": "Financial proof did not demonstrate sufficient funds to sustain the applicant during settlement. The visa officer required evidence of at least 12 months of living expenses (€12,000–€15,000) plus business startup costs as a freelancer.",
+  "what_worked": "Compiled a stronger application: savings of €18,000, two signed freelance contracts with UK clients continuing to pay in EUR, and a detailed business plan with projected German client revenue for months 3–6. Included a letter from a German Steuerberater confirming the business plan was viable. Visa approved on the second attempt.",
+  "what_failed": "Appealing with just additional bank statements alone. Providing references from previous UK clients without contracts. Submitting a signed German rental agreement as a show of commitment.",
+  "days_to_resolve": 62,
+  "cost_eur": 250,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/freelance_visa_denied_london_insufficient_funds_post_brexit"
+}

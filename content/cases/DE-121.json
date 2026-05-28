@@ -1,0 +1,18 @@
+{
+  "id": "DE-121",
+  "slug": "german-embassy-visa-denied-unsupported-blocked-account-provider",
+  "office": "German Embassy Mumbai - Visa Section",
+  "city": "Mumbai",
+  "state": "N/A",
+  "visa_type": "Student Visa",
+  "category": "Blocked account / Visa denial",
+  "situation": "Applied for a German student visa using a 'blocked account' certificate from a local Indian bank that offered its own blocked account service. The embassy did not recognize this provider as an approved institution for German student visa purposes.",
+  "rejection_reason": "Blocked account not held with an approved provider recognized by German embassies. Approved institutions include Deutsche Bank, Fintiba, Coracle, and Expatrio — local Indian bank products are not accepted.",
+  "what_worked": "Opened a Fintiba blocked account with the correct 2026 amount (€11,208) and obtained the official certificate. Requested the refund from the Indian bank (took 2 weeks). Reapplied with the Fintiba certificate. Visa approved 4 weeks after reapplication.",
+  "what_failed": "Providing a notarized letter from the Indian bank explaining the blocked account mechanism. Submitting a certificate from a bank not on the embassy's approved list. Attempting to appeal based on equivalent financial guarantee.",
+  "days_to_resolve": 45,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/student_visa_denied_unsupported_blocked_account_india_mumbai"
+}

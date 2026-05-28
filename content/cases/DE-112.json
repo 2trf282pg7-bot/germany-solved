@@ -1,0 +1,18 @@
+{
+  "id": "DE-112",
+  "slug": "frankfurt-auslaenderbehoerde-blue-card-uncertified-translation",
+  "office": "Ausländerbehörde Frankfurt am Main",
+  "city": "Frankfurt",
+  "state": "Hesse",
+  "visa_type": "Blue Card",
+  "category": "Blue Card delays",
+  "situation": "Submitted a degree translation done by a bilingual colleague. Frankfurt Ausländerbehörde rejected the translation, stating only sworn/certified translators (vereidigte Übersetzer) are accepted for official immigration documents.",
+  "rejection_reason": "Translation of degree certificate not performed by a court-sworn translator. Frankfurt requires all non-German documents to be translated by a certified sworn translator listed in the Justizministerium Hessen registry.",
+  "what_worked": "Found a sworn translator via the justizministerium-hessen.de registry. Translation cost €120 and was completed in 3 days. Resubmitted documents and received Blue Card appointment within 2 weeks.",
+  "what_failed": "Submitting a translation with a notary stamp (notarization is not equivalent to sworn translation). Using a professional translation agency without court-sworn status. Trying to submit the English-language degree directly.",
+  "days_to_resolve": 21,
+  "cost_eur": 120,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/frankfurt/comments/blue_card_sworn_translator_required_frankfurt"
+}

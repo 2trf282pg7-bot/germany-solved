@@ -1,0 +1,18 @@
+{
+  "id": "DE-106",
+  "slug": "hamburg-altona-anmeldung-rejected-outdated-form",
+  "office": "Kundenzentrum Altona",
+  "city": "Hamburg",
+  "state": "Hamburg",
+  "visa_type": "Blue Card",
+  "category": "Anmeldung",
+  "situation": "Filled out the Wohnungsgeberbestätigung using a form downloaded from an unofficial website. The form was an outdated version from 2019 and was missing required fields added in the 2021 BMG update.",
+  "rejection_reason": "Form version was outdated and did not contain all legally required fields per the 2021 update to the BMG. Staff rejected it immediately without further processing.",
+  "what_worked": "Downloaded the current official form from Hamburg.de, had landlord re-sign it, and returned the same day. Staff processed it immediately with the correct form.",
+  "what_failed": "Arguing that the content was the same despite the version difference. Offering to handwrite the missing fields on the old form. Asking to speak to a supervisor.",
+  "days_to_resolve": 1,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/hamburg/comments/anmeldung_wrong_form_version_altona"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "DE-116",
+  "slug": "barmer-rejected-new-freelancer-no-income-proof",
+  "office": "Barmer - Geschäftsstelle Hamburg-Mitte",
+  "city": "Hamburg",
+  "state": "Hamburg",
+  "visa_type": "Blue Card",
+  "category": "Health insurance rejections",
+  "situation": "Recently transitioned from employment to freelance. Applied to Barmer for continued statutory coverage. As a newly self-employed person with no completed fiscal year, had no prior income documentation to submit. Barmer's standard process requires prior-year income documentation.",
+  "rejection_reason": "Could not provide an Einkommensteuerbescheid or Gewinn- und Verlustrechnung as the freelance activity had just started. Barmer put the application on hold requiring documentation that did not yet exist.",
+  "what_worked": "Submitted a Selbstauskunft (self-declaration) stating expected annual income for the current year, supported by signed freelance contracts showing upcoming project fees. Barmer accepted this as a basis for provisional contributions with annual reconciliation after tax filing.",
+  "what_failed": "Submitting just the Gewerbe- or Freiberufleranmeldung form. Offering a bank statement showing personal savings. Requesting the minimum contribution rate without income documentation.",
+  "days_to_resolve": 14,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/hamburg/comments/barmer_new_freelancer_no_income_proof_selbstauskunft"
+}

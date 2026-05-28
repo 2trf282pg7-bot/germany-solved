@@ -1,0 +1,18 @@
+{
+  "id": "DE-118",
+  "slug": "tk-rejected-over-55-first-time-gkv-applicant",
+  "office": "Techniker Krankenkasse (TK) - Geschäftsstelle Frankfurt",
+  "city": "Frankfurt",
+  "state": "Hesse",
+  "visa_type": "Blue Card",
+  "category": "Health insurance rejections",
+  "situation": "56-year-old senior software engineer relocating to Germany for a Blue Card position. Applied to TK for statutory health insurance. TK indicated that first-time GKV applicants over 55 without prior German GKV history may not qualify for voluntary membership under §9 SGB V.",
+  "rejection_reason": "§9 SGB V voluntary membership conditions not met. As someone without prior German GKV enrollment, TK determined voluntary membership was not available due to age and residency history outside Germany.",
+  "what_worked": "Employer confirmed mandatory employment-based GKV membership under §5(1) SGB V, since the salary was below the Jahresarbeitsentgeltgrenze (JAEG). This overrode the §9 voluntary restrictions and TK enrolled the applicant under the mandatory membership category.",
+  "what_failed": "Applying directly as a voluntary member without going through the employer channel. Attempting private insurance (PKV) — premiums for a 56-year-old without prior PKV history were prohibitively high. Requesting grandfather clause exceptions.",
+  "days_to_resolve": 12,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/tk_over55_first_time_gkv_mandatory_employment_frankfurt"
+}

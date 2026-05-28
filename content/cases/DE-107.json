@@ -1,0 +1,18 @@
+{
+  "id": "DE-107",
+  "slug": "frankfurt-gallus-anmeldung-appointment-system-failure",
+  "office": "Bürgeramt Gallus Frankfurt am Main",
+  "city": "Frankfurt",
+  "state": "Hesse",
+  "visa_type": "Blue Card",
+  "category": "Anmeldung",
+  "situation": "Newly arrived in Frankfurt and needed to register within the 2-week deadline. The online appointment booking system showed no available slots for 6 weeks across all Frankfurt Bürgerämter locations.",
+  "rejection_reason": "No appointments available within the legally required registration window. Walk-in attempts were turned away at the door. Deadline pressure created risk of visa complications.",
+  "what_worked": "Checked the appointment portal at 6:00 AM daily for cancellations. Secured a slot that appeared 4 days later at Bürgeramt Sachsenhausen. Employer HR issued written confirmation that registration was attempted, providing partial protection if questioned.",
+  "what_failed": "Trying to walk in and explain the deadline urgency. Calling the Bürgeramt directly (no one answers). Emailing to request an emergency appointment. Trying branch offices outside of Frankfurt (not permitted for Frankfurt residents).",
+  "days_to_resolve": 11,
+  "cost_eur": 0,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/frankfurt/comments/no_appointment_anmeldung_slots_gallus"
+}

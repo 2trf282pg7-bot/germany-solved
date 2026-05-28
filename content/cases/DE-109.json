@@ -1,0 +1,18 @@
+{
+  "id": "DE-109",
+  "slug": "berlin-lea-blue-card-delay-degree-recognition-pending",
+  "office": "Landesamt für Einwanderung Berlin (LEA)",
+  "city": "Berlin",
+  "state": "Berlin",
+  "visa_type": "Blue Card",
+  "category": "Blue Card delays",
+  "situation": "Applied for Blue Card at LEA Berlin while awaiting degree recognition. University degree from India was not listed under anabin H+ category and required individual assessment by the Zentralstelle für ausländisches Bildungswesen (ZAB).",
+  "rejection_reason": "Degree not automatically recognized under anabin database H+ status. LEA required an official equivalency statement from ZAB before processing the Blue Card application.",
+  "what_worked": "Employer's legal team obtained a temporary work permit (§19c AufenthG) while ZAB assessment was ongoing. ZAB process took 10 weeks. Once equivalency was confirmed, Blue Card was issued within 2 weeks.",
+  "what_failed": "Submitting a self-certified translation of the degree. Providing LinkedIn recommendations from German professors. Attempting to use a professional qualification certificate as a substitute for the degree.",
+  "days_to_resolve": 84,
+  "cost_eur": 200,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/blue_card_zab_degree_recognition_india_lea_berlin"
+}

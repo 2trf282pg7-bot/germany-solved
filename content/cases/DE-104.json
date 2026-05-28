@@ -1,0 +1,18 @@
+{
+  "id": "DE-104",
+  "slug": "berlin-mitte-anmeldung-rejected-landlord-signature",
+  "office": "Berlin Mitte Bürgeramt",
+  "city": "Berlin",
+  "state": "Berlin",
+  "visa_type": "Blue Card",
+  "category": "Anmeldung",
+  "situation": "Moved into a shared flat (WG) in Berlin-Mitte. Landlord lives abroad and refused to sign the Wohnungsgeberbestätigung form, claiming it was not legally required for subtenants.",
+  "rejection_reason": "Missing Wohnungsgeberbestätigung (landlord confirmation form). Staff at Bürgeramt refused to register without it as required by §19 BMG.",
+  "what_worked": "Contacted the Mieterverein (tenant association) who sent a formal letter to the landlord explaining the legal obligation. Landlord complied within 2 days and sent signed form via email. Scanned copy accepted at next appointment.",
+  "what_failed": "Showing up without the form and explaining the situation verbally. Asking a neighbor to vouch for the residency. Attempting to get a landlord attestation from the Hausverwaltung instead.",
+  "days_to_resolve": 5,
+  "cost_eur": 12,
+  "status": "Resolved",
+  "reported": "2026-05",
+  "source_url": "https://reddit.com/r/germany/comments/landlord_wohnungsgeberbestaetigung_berlin"
+}
