@@ -5,6 +5,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import UpdateBanner from '@/components/UpdateBanner';
 import ReportForm from '@/components/ReportForm';
+import ConvertKitForm from '@/components/ConvertKitForm';
 
 interface CaseFrontmatter {
   id: string;
@@ -75,6 +76,9 @@ export async function generateMetadata({
     description: `Immigration case report: ${fm.visaType} at ${fm.office}. Outcome: ${fm.outcome}. Wait time: ${fm.waitDays} days.`,
   };
 }
+
+const MID_FORM_ID = process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID ?? '';
+const END_FORM_ID = process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID_2 ?? MID_FORM_ID;
 
 export default function CasePage({ params }: { params: { slug: string } }) {
   const caseData = getCaseData(params.slug);
@@ -154,6 +158,15 @@ export default function CasePage({ params }: { params: { slug: string } }) {
             <div>
               <UpdateBanner lastUpdated="May 27, 2026" newReports={3} />
 
+              {/* Mid-article email capture */}
+              <ConvertKitForm
+                formId={MID_FORM_ID}
+                title="Get notified when new cases are added"
+                description="We add new verified case reports weekly. Get an alert when cases from your city or visa type are published."
+                buttonText="Notify Me"
+                variant="mid"
+              />
+
               <div
                 style={{
                   background: 'var(--white)',
@@ -205,6 +218,15 @@ export default function CasePage({ params }: { params: { slug: string } }) {
                 </p>
                 <ReportForm />
               </div>
+
+              {/* End-of-article email capture (before disclaimer) */}
+              <ConvertKitForm
+                formId={END_FORM_ID}
+                title="Weekly Germany immigration updates"
+                description="Real case summaries, wait time trends, and tips from expats navigating German bureaucracy. Every Monday."
+                buttonText="Subscribe Free"
+                variant="end"
+              />
             </div>
 
             {/* Sidebar */}
