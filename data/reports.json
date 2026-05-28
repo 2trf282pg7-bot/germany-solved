@@ -108,5 +108,148 @@
     "outcome": "approved",
     "waitDays": 56,
     "month": "2026-05"
+  },
+  {
+    "id": "r011",
+    "caseId": "DE-104",
+    "office": "Berlin Mitte Bürgeramt",
+    "city": "berlin",
+    "date": "2026-05-03",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 5,
+    "month": "2026-05"
+  },
+  {
+    "id": "r012",
+    "caseId": "DE-105",
+    "office": "Bürgerbüro München-Schwabing",
+    "city": "munich",
+    "date": "2026-05-04",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 8,
+    "month": "2026-05"
+  },
+  {
+    "id": "r013",
+    "caseId": "DE-106",
+    "office": "Kundenzentrum Altona",
+    "city": "hamburg",
+    "date": "2026-05-06",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 1,
+    "month": "2026-05"
+  },
+  {
+    "id": "r014",
+    "caseId": "DE-107",
+    "office": "Bürgeramt Gallus Frankfurt am Main",
+    "city": "frankfurt",
+    "date": "2026-05-07",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 11,
+    "month": "2026-05"
+  },
+  {
+    "id": "r015",
+    "caseId": "DE-108",
+    "office": "Stadthaus Nord Bürgeramt Köln",
+    "city": "cologne",
+    "date": "2026-05-08",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 1,
+    "month": "2026-05"
+  },
+  {
+    "id": "r016",
+    "caseId": "DE-109",
+    "office": "Landesamt für Einwanderung Berlin (LEA)",
+    "city": "berlin",
+    "date": "2026-05-09",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 84,
+    "month": "2026-05"
+  },
+  {
+    "id": "r017",
+    "caseId": "DE-110",
+    "office": "KVR München - Ausländerabteilung",
+    "city": "munich",
+    "date": "2026-05-11",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 28,
+    "month": "2026-05"
+  },
+  {
+    "id": "r018",
+    "caseId": "DE-111",
+    "office": "Einwanderungsbehörde Hamburg",
+    "city": "hamburg",
+    "date": "2026-05-13",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 52,
+    "month": "2026-05"
+  },
+  {
+    "id": "r019",
+    "caseId": "DE-112",
+    "office": "Ausländerbehörde Frankfurt am Main",
+    "city": "frankfurt",
+    "date": "2026-05-14",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 21,
+    "month": "2026-05"
+  },
+  {
+    "id": "r020",
+    "caseId": "DE-113",
+    "office": "Ausländerbehörde Stuttgart",
+    "city": "stuttgart",
+    "date": "2026-05-16",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 72,
+    "month": "2026-05"
+  },
+  {
+    "id": "r021",
+    "caseId": "DE-114",
+    "office": "Techniker Krankenkasse (TK)",
+    "city": "berlin",
+    "date": "2026-05-17",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 4,
+    "month": "2026-05"
+  },
+  {
+    "id": "r022",
+    "caseId": "DE-115",
+    "office": "AOK Berlin-Brandenburg",
+    "city": "berlin",
+    "date": "2026-05-18",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 18,
+    "month": "2026-05"
+  },
+  {
+    "id": "r023",
+    "caseId": "DE-116",
+    "office": "Barmer - Geschäftsstelle Hamburg-Mitte",
+    "city": "hamburg",
+    "date": "2026-05-19",
+    "visaType": "Blue Card",
+    "outcome": "resolved",
+    "waitDays": 14,
+    "month": "2026-05"
   }
 ]

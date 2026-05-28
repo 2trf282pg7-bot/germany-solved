@@ -1,0 +1,12 @@
+{
+  "type": "anmeldung",
+  "updated": "2026-05-27",
+  "cities": {
+    "berlin": { "weeks": "2-4", "trend": "increasing" },
+    "munich": { "weeks": "1-2", "trend": "stable" },
+    "hamburg": { "weeks": "3-5", "trend": "stable" },
+    "frankfurt": { "weeks": "2-4", "trend": "increasing" },
+    "cologne": { "weeks": "1-3", "trend": "stable" },
+    "stuttgart": { "weeks": "2-3", "trend": "stable" }
+  }
+}

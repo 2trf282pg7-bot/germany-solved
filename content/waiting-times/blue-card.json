@@ -1,0 +1,14 @@
+{
+  "type": "blue_card",
+  "updated": "2026-05-27",
+  "cities": {
+    "berlin": { "weeks": "6-8", "trend": "increasing" },
+    "munich": { "weeks": "4-6", "trend": "stable" },
+    "hamburg": { "weeks": "8-12", "trend": "increasing" },
+    "frankfurt": { "weeks": "5-7", "trend": "stable" },
+    "stuttgart": { "weeks": "8-10", "trend": "increasing" },
+    "cologne": { "weeks": "6-9", "trend": "stable" },
+    "dusseldorf": { "weeks": "5-8", "trend": "stable" },
+    "nuremburg": { "weeks": "4-6", "trend": "stable" }
+  }
+}
