@@ -1,0 +1,52 @@
+[
+  {
+    "city": "berlin",
+    "reportCount": 3,
+    "avgWaitDays": 146,
+    "approvalRate": 100,
+    "rejectionRate": 0,
+    "pendingCount": 0,
+    "rescheduledCount": 0,
+    "lastUpdated": "2026-05-29"
+  },
+  {
+    "city": "munich",
+    "reportCount": 3,
+    "avgWaitDays": 26,
+    "approvalRate": 33,
+    "rejectionRate": 33,
+    "pendingCount": 0,
+    "rescheduledCount": 1,
+    "lastUpdated": "2026-05-29"
+  },
+  {
+    "city": "hamburg",
+    "reportCount": 2,
+    "avgWaitDays": 62,
+    "approvalRate": 50,
+    "rejectionRate": 0,
+    "pendingCount": 1,
+    "rescheduledCount": 0,
+    "lastUpdated": "2026-05-29"
+  },
+  {
+    "city": "cologne",
+    "reportCount": 1,
+    "avgWaitDays": 155,
+    "approvalRate": 0,
+    "rejectionRate": 0,
+    "pendingCount": 1,
+    "rescheduledCount": 0,
+    "lastUpdated": "2026-05-29"
+  },
+  {
+    "city": "frankfurt",
+    "reportCount": 1,
+    "avgWaitDays": 88,
+    "approvalRate": 0,
+    "rejectionRate": 100,
+    "pendingCount": 0,
+    "rescheduledCount": 0,
+    "lastUpdated": "2026-05-29"
+  }
+]
