@@ -2,9 +2,7 @@ name: Generate Articles
 
 on:
   schedule:
-    - cron: '0 9 * * 1'   # Monday    09:00 UTC
-    - cron: '0 9 * * 3'   # Wednesday 09:00 UTC
-    - cron: '0 9 * * 5'   # Friday    09:00 UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       topic:
