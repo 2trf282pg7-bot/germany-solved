@@ -1816,3 +1816,33 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
   }
 }
+
+/* ==================== ARTICLE BODY (markdown) ==================== */
+.content-body .stats-table-wrapper {
+  margin: 8px 0 24px;
+}
+
+.content-body blockquote {
+  margin: 20px 0;
+  padding: 16px 20px;
+  background: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-md);
+  color: var(--ink-mid);
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+.content-body blockquote strong {
+  color: var(--ink);
+}
+
+.content-body a {
+  color: var(--accent);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.content-body em {
+  font-style: italic;
+}

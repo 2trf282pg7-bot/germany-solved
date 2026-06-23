@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const NAV_LINKS = [
+  { label: 'Articles', href: '/articles' },
   { label: 'Offices', href: '/office/berlin-auslaenderbehoerde' },
   { label: 'Waiting Times', href: '/waiting-times/berlin' },
   { label: 'Rejection Reasons', href: '/rejection-reasons/work-visa' },
