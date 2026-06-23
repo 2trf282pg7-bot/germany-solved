@@ -27,7 +27,10 @@ export const metadata: Metadata = {
     locale: 'en_US',
   },
   verification: {
-    google: 'vivVzHAN3WW6Sd8bcxR_7XOhQ9pkZQY2GtCUZkUaTSQ',
+    google: [
+      'vivVzHAN3WW6Sd8bcxR_7XOhQ9pkZQY2GtCUZkUaTSQ',
+      'l1-lQGHd6uGTh5ctYAFcXVbx_ISiQwYhENo8wJd-43k',
+    ],
   },
 };
 
