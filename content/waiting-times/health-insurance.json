@@ -8,5 +8,11 @@
     "dak": { "days": "4-7", "trend": "stable" },
     "hkk": { "days": "2-4", "trend": "stable" },
     "ikk": { "days": "5-8", "trend": "increasing" }
+  },
+  "affiliate": {
+    "partner": "fintiba",
+    "url": "https://partner.fintiba.com/germanycases",
+    "label": "Get health insurance with Fintiba",
+    "rel": "nofollow sponsored"
   }
 }

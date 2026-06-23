@@ -68,3 +68,9 @@ You may receive one of the following outcomes:
 ## Share Your Experience
 
 Have you been through this process? [Submit your report](/report) to help others in the GermanySolved community.
+
+## Related Resources
+
+> 💡 **Health Insurance Recommendation**
+> <a href="https://partner.fintiba.com/germanycases" rel="nofollow sponsored">Get covered with Fintiba →</a>
+> Public health insurance accepted by German visa authorities, designed for expats and international students.

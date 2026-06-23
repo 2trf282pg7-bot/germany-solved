@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import UpdateBanner from '@/components/UpdateBanner';
 import ReportForm from '@/components/ReportForm';
+import { AFFILIATES, AFFILIATE_REL } from '@/lib/affiliates';
 
 interface DocumentItem {
   name: string;
@@ -268,6 +269,21 @@ export default function AcceptedDocumentsPage({ params }: { params: { slug: stri
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="sidebar-card">
+            <h3>Health Insurance</h3>
+            <p style={{ fontSize: '0.9375rem', color: 'var(--ink-light)', marginBottom: '12px' }}>
+              {AFFILIATES.fintiba.description}
+            </p>
+            <a
+              href={AFFILIATES.fintiba.url}
+              rel={AFFILIATE_REL}
+              target="_blank"
+              className="btn-primary"
+              style={{ display: 'inline-flex' }}
+            >
+              {AFFILIATES.fintiba.label} →
+            </a>
           </div>
           <div className="sidebar-card">
             <h3>Related Resources</h3>
