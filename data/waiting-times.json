@@ -1,52 +1,62 @@
 [
   {
     "city": "berlin",
-    "reportCount": 3,
-    "avgWaitDays": 146,
-    "approvalRate": 100,
+    "reportCount": 7,
+    "avgWaitDays": 78,
+    "approvalRate": 43,
     "rejectionRate": 0,
-    "pendingCount": 0,
+    "pendingCount": 4,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-05-29"
+    "lastUpdated": "2026-06-24"
   },
   {
     "city": "munich",
-    "reportCount": 3,
-    "avgWaitDays": 26,
-    "approvalRate": 33,
-    "rejectionRate": 33,
-    "pendingCount": 0,
+    "reportCount": 5,
+    "avgWaitDays": 23,
+    "approvalRate": 20,
+    "rejectionRate": 20,
+    "pendingCount": 2,
     "rescheduledCount": 1,
-    "lastUpdated": "2026-05-29"
+    "lastUpdated": "2026-06-24"
   },
   {
     "city": "hamburg",
-    "reportCount": 2,
-    "avgWaitDays": 62,
-    "approvalRate": 50,
+    "reportCount": 5,
+    "avgWaitDays": 38,
+    "approvalRate": 20,
     "rejectionRate": 0,
-    "pendingCount": 1,
+    "pendingCount": 4,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-05-29"
-  },
-  {
-    "city": "cologne",
-    "reportCount": 1,
-    "avgWaitDays": 155,
-    "approvalRate": 0,
-    "rejectionRate": 0,
-    "pendingCount": 1,
-    "rescheduledCount": 0,
-    "lastUpdated": "2026-05-29"
+    "lastUpdated": "2026-06-24"
   },
   {
     "city": "frankfurt",
-    "reportCount": 1,
-    "avgWaitDays": 88,
+    "reportCount": 3,
+    "avgWaitDays": 40,
     "approvalRate": 0,
-    "rejectionRate": 100,
-    "pendingCount": 0,
+    "rejectionRate": 33,
+    "pendingCount": 2,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-05-29"
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "city": "cologne",
+    "reportCount": 2,
+    "avgWaitDays": 78,
+    "approvalRate": 0,
+    "rejectionRate": 0,
+    "pendingCount": 2,
+    "rescheduledCount": 0,
+    "lastUpdated": "2026-06-24"
+  },
+  {
+    "city": "stuttgart",
+    "reportCount": 1,
+    "avgWaitDays": 72,
+    "approvalRate": 0,
+    "rejectionRate": 0,
+    "pendingCount": 1,
+    "rescheduledCount": 0,
+    "lastUpdated": "2026-06-24"
   }
 ]
