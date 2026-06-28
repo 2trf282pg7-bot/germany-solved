@@ -1,12 +1,12 @@
 ---
 title: "Munich KVR: what to expect at your appointment"
 slug: "munich-kvr-what-to-expect-at-your-appointment"
-date: "2026-06-27"
+date: "2026-06-28"
 category: "Office Guide"
 description: "Practical guide: munich kvr: what to expect at your appointment. Real data from the GermanySolved community."
 ---
 
-This guide is based on 29 real reports submitted to the GermanySolved community.
+This guide is based on 23 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~144 days |
-| Community approval rate | 63% |
-| Reports in database | 29 |
-| Last updated | 2026-06-27 |
+| Average processing time | ~143 days |
+| Community approval rate | 67% |
+| Reports in database | 23 |
+| Last updated | 2026-06-28 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 29 submitted reports:
+Based on 23 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
