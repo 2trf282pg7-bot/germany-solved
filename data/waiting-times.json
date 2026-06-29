@@ -7,7 +7,7 @@
     "rejectionRate": 0,
     "pendingCount": 4,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "city": "munich",
@@ -17,7 +17,7 @@
     "rejectionRate": 20,
     "pendingCount": 2,
     "rescheduledCount": 1,
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "city": "hamburg",
@@ -27,7 +27,7 @@
     "rejectionRate": 0,
     "pendingCount": 4,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "city": "frankfurt",
@@ -37,7 +37,7 @@
     "rejectionRate": 33,
     "pendingCount": 2,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "city": "cologne",
@@ -47,7 +47,7 @@
     "rejectionRate": 0,
     "pendingCount": 2,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   },
   {
     "city": "stuttgart",
@@ -57,6 +57,6 @@
     "rejectionRate": 0,
     "pendingCount": 1,
     "rescheduledCount": 0,
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
   }
 ]
