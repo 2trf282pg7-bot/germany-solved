@@ -1,12 +1,12 @@
 ---
 title: "Freelance visa Germany: complete document checklist"
 slug: "freelance-visa-germany-complete-document-checklist"
-date: "2026-06-03"
+date: "2026-06-30"
 category: "Freelance"
 description: "Practical guide: freelance visa germany: complete document checklist. Real data from the GermanySolved community."
 ---
 
-This guide is based on 44 real reports submitted to the GermanySolved community.
+This guide is based on 53 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~102 days |
-| Community approval rate | 58% |
-| Reports in database | 44 |
-| Last updated | 2026-06-03 |
+| Average processing time | ~81 days |
+| Community approval rate | 64% |
+| Reports in database | 53 |
+| Last updated | 2026-06-30 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 44 submitted reports:
+Based on 53 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
@@ -68,9 +68,3 @@ You may receive one of the following outcomes:
 ## Share Your Experience
 
 Have you been through this process? [Submit your report](/report) to help others in the GermanySolved community.
-
-## Related Resources
-
-> 💡 **Health Insurance Recommendation**
-> <a href="https://partner.fintiba.com/germanycases" rel="nofollow sponsored">Get covered with Fintiba →</a>
-> Public health insurance accepted by German visa authorities, designed for expats and international students.
