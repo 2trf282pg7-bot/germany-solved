@@ -1,12 +1,12 @@
 ---
 title: "Cologne vs Düsseldorf: which office is easier for work visas"
 slug: "cologne-vs-duesseldorf-which-office-is-easier-for-work-visas"
-date: "2026-06-29"
+date: "2026-07-06"
 category: "Office Guide"
 description: "Practical guide: cologne vs düsseldorf: which office is easier for work visas. Real data from the GermanySolved community."
 ---
 
-This guide is based on 61 real reports submitted to the GermanySolved community.
+This guide is based on 42 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~77 days |
-| Community approval rate | 64% |
-| Reports in database | 61 |
-| Last updated | 2026-06-29 |
+| Average processing time | ~103 days |
+| Community approval rate | 74% |
+| Reports in database | 42 |
+| Last updated | 2026-07-06 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 61 submitted reports:
+Based on 42 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
