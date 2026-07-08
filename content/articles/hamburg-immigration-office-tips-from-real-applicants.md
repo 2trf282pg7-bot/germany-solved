@@ -1,12 +1,12 @@
 ---
 title: "Hamburg immigration office: tips from real applicants"
 slug: "hamburg-immigration-office-tips-from-real-applicants"
-date: "2026-07-05"
+date: "2026-07-08"
 category: "Office Guide"
 description: "Practical guide: hamburg immigration office: tips from real applicants. Real data from the GermanySolved community."
 ---
 
-This guide is based on 29 real reports submitted to the GermanySolved community.
+This guide is based on 65 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~62 days |
-| Community approval rate | 64% |
-| Reports in database | 29 |
-| Last updated | 2026-07-05 |
+| Average processing time | ~52 days |
+| Community approval rate | 66% |
+| Reports in database | 65 |
+| Last updated | 2026-07-08 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 29 submitted reports:
+Based on 65 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
