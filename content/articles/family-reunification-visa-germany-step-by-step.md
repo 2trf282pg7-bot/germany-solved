@@ -1,12 +1,12 @@
 ---
 title: "Family reunification visa Germany: step by step"
 slug: "family-reunification-visa-germany-step-by-step"
-date: "2026-06-24"
+date: "2026-07-15"
 category: "Family"
 description: "Practical guide: family reunification visa germany: step by step. Real data from the GermanySolved community."
 ---
 
-This guide is based on 18 real reports submitted to the GermanySolved community.
+This guide is based on 66 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~141 days |
-| Community approval rate | 85% |
-| Reports in database | 18 |
-| Last updated | 2026-06-24 |
+| Average processing time | ~121 days |
+| Community approval rate | 60% |
+| Reports in database | 66 |
+| Last updated | 2026-07-15 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 18 submitted reports:
+Based on 66 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
