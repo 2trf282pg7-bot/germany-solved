@@ -1,12 +1,12 @@
 ---
 title: "How to appeal a German visa rejection"
 slug: "how-to-appeal-a-german-visa-rejection"
-date: "2026-07-07"
+date: "2026-07-16"
 category: "Appeals"
 description: "Practical guide: how to appeal a german visa rejection. Real data from the GermanySolved community."
 ---
 
-This guide is based on 54 real reports submitted to the GermanySolved community.
+This guide is based on 42 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~91 days |
-| Community approval rate | 63% |
-| Reports in database | 54 |
-| Last updated | 2026-07-07 |
+| Average processing time | ~106 days |
+| Community approval rate | 58% |
+| Reports in database | 42 |
+| Last updated | 2026-07-16 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 54 submitted reports:
+Based on 42 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
