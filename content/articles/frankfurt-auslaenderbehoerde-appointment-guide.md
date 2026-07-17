@@ -1,12 +1,12 @@
 ---
 title: "Frankfurt Ausländerbehörde appointment guide"
 slug: "frankfurt-auslaenderbehoerde-appointment-guide"
-date: "2026-07-13"
+date: "2026-07-17"
 category: "Office Guide"
 description: "Practical guide: frankfurt ausländerbehörde appointment guide. Real data from the GermanySolved community."
 ---
 
-This guide is based on 63 real reports submitted to the GermanySolved community.
+This guide is based on 57 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~140 days |
-| Community approval rate | 75% |
-| Reports in database | 63 |
-| Last updated | 2026-07-13 |
+| Average processing time | ~127 days |
+| Community approval rate | 70% |
+| Reports in database | 57 |
+| Last updated | 2026-07-17 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 63 submitted reports:
+Based on 57 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
