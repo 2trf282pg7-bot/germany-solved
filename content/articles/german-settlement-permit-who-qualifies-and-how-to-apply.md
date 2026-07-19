@@ -1,12 +1,12 @@
 ---
 title: "German settlement permit: who qualifies and how to apply"
 slug: "german-settlement-permit-who-qualifies-and-how-to-apply"
-date: "2026-06-25"
+date: "2026-07-19"
 category: "Settlement"
 description: "Practical guide: german settlement permit: who qualifies and how to apply. Real data from the GermanySolved community."
 ---
 
-This guide is based on 13 real reports submitted to the GermanySolved community.
+This guide is based on 59 real reports submitted to the GermanySolved community.
 
 ## Overview
 
@@ -16,10 +16,10 @@ Navigating German immigration can feel overwhelming. This guide covers everythin
 
 | Item | Details |
 |------|---------|
-| Average processing time | ~141 days |
-| Community approval rate | 61% |
-| Reports in database | 13 |
-| Last updated | 2026-06-25 |
+| Average processing time | ~60 days |
+| Community approval rate | 88% |
+| Reports in database | 59 |
+| Last updated | 2026-07-19 |
 
 ## What You Need to Know
 
@@ -40,7 +40,7 @@ Before your appointment, prepare the following:
 
 ## Tips from the Community
 
-Based on 13 submitted reports:
+Based on 59 submitted reports:
 
 1. **Book early** — appointment slots fill up 8–12 weeks in advance in major cities.
 2. **Get documents translated** — all non-German documents must be translated by a certified translator (*vereidigter Übersetzer*).
