@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportForm from '@/components/ReportForm';
 
 interface RejectionCategory {
   slug: string;
@@ -291,7 +289,7 @@ export async function generateMetadata({
   if (!cat) return { title: 'Not Found' };
   return {
     title: `${cat.title} – How to Appeal`,
-    description: `Common reasons for ${cat.visaType} rejection in Germany and how to appeal. Based on real community reports.`,
+    description: `Common reasons for ${cat.visaType} rejection in Germany and how to appeal.`,
   };
 }
 
@@ -341,8 +339,6 @@ export default function RejectionReasonsPage({ params }: { params: { slug: strin
 
       <section className="section">
         <div className="section-inner">
-          <UpdateBanner lastUpdated="May 27, 2026" newReports={2} />
-
           {/* Reasons */}
           <div
             style={{
@@ -516,8 +512,6 @@ export default function RejectionReasonsPage({ params }: { params: { slug: strin
               to appeal. Consult an immigration lawyer immediately upon receiving a rejection.
             </p>
           </div>
-
-          <ReportForm />
         </div>
       </section>
     </>

@@ -1,8 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportCounter from '@/components/ReportCounter';
-import ReportForm from '@/components/ReportForm';
 
 interface CityData {
   slug: string;
@@ -155,7 +152,7 @@ export async function generateMetadata({
   if (!city) return { title: 'City Not Found' };
   return {
     title: `${city.name} Immigration Wait Times 2026`,
-    description: `Real wait times for immigration appointments in ${city.name}. Average: ${city.avgWaitDays} days. Based on ${city.reportCount} community reports.`,
+    description: `Wait time information for immigration appointments in ${city.name}. Sample data for demonstration purposes.`,
   };
 }
 
@@ -195,19 +192,14 @@ export default function WaitingTimesPage({ params }: { params: { slug: string } 
             {city.name} Immigration Wait Times
           </h1>
           <p className="page-subtitle">
-            Real processing times reported by foreigners at {city.name}&apos;s immigration office.
-            Based on {city.reportCount} community reports.
+            Processing time information for {city.name}&apos;s immigration office.
+            Sample data for demonstration purposes.
           </p>
-          <div className="page-meta">
-            <ReportCounter count={city.reportCount} city={city.name} />
-          </div>
         </div>
       </div>
 
       <section className="section">
         <div className="section-inner">
-          <UpdateBanner lastUpdated="May 27, 2026" newReports={1} />
-
           {/* Key Stats */}
           <div
             style={{
@@ -218,10 +210,9 @@ export default function WaitingTimesPage({ params }: { params: { slug: string } 
             }}
           >
             {[
-              { label: 'Avg. Wait Time', value: `${city.avgWaitDays}d`, sub: 'application to decision' },
-              { label: 'Approval Rate', value: `${city.approvalRate}%`, sub: 'community reports' },
-              { label: 'Reports', value: String(city.reportCount), sub: 'total submissions' },
-              { label: 'Trend', value: city.trend[city.trend.length - 1].avgDays < city.trend[0].avgDays ? '↓ Improving' : '↑ Worsening', sub: 'vs 6 months ago' },
+              { label: 'Avg. Wait Time', value: `${city.avgWaitDays}d`, sub: 'sample data' },
+              { label: 'Approval Rate', value: `${city.approvalRate}%`, sub: 'sample data' },
+              { label: 'Trend', value: city.trend[city.trend.length - 1].avgDays < city.trend[0].avgDays ? '↓ Improving' : '↑ Worsening', sub: 'sample data' },
             ].map((stat) => (
               <div
                 key={stat.label}
@@ -411,8 +402,6 @@ export default function WaitingTimesPage({ params }: { params: { slug: string } 
               View Office Guide
             </Link>
           </div>
-
-          <ReportForm />
         </div>
       </section>
     </>

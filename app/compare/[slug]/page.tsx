@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportForm from '@/components/ReportForm';
 
 interface OfficeProfile {
   name: string;
@@ -239,11 +237,6 @@ export default function ComparePage({ params }: { params: { slug: string } }) {
       rightVal: `${right.difficultyScore}/100`,
       winner: left.difficultyScore < right.difficultyScore ? 'left' : right.difficultyScore < left.difficultyScore ? 'right' : 'tie',
     },
-    {
-      label: 'Community Reports',
-      leftVal: String(left.reportCount),
-      rightVal: String(right.reportCount),
-    },
   ];
 
   return (
@@ -261,15 +254,13 @@ export default function ComparePage({ params }: { params: { slug: string } }) {
           <div className="page-eyebrow">Office Comparison</div>
           <h1 className="page-title">{comp.title}</h1>
           <p className="page-subtitle">
-            Side-by-side comparison based on community reports and official data.
+            Side-by-side office comparison. Sample data for demonstration purposes.
           </p>
         </div>
       </div>
 
       <section className="section">
         <div className="section-inner">
-          <UpdateBanner lastUpdated="May 27, 2026" newReports={1} />
-
           {/* Comparison Table */}
           <div className="stats-table-wrapper" style={{ marginTop: '24px', marginBottom: '24px' }}>
             <table className="compare-table">
@@ -419,14 +410,12 @@ export default function ComparePage({ params }: { params: { slug: string } }) {
                 marginBottom: '12px',
               }}
             >
-              Community Verdict
+              Verdict
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--accent)', lineHeight: 1.7 }}>
               {comp.verdict}
             </p>
           </div>
-
-          <ReportForm />
         </div>
       </section>
     </>

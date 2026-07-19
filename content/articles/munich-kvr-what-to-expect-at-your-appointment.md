@@ -65,6 +65,3 @@ You may receive one of the following outcomes:
 - **Nachforderung** — request for additional documents (respond within the deadline given)
 - **Rejection** — you have the right to appeal (*Widerspruch*) within 1 month
 
-## Share Your Experience
-
-Have you been through this process? [Submit your report](/report) to help others in the GermanySolved community.

@@ -65,16 +65,4 @@ You may receive one of the following outcomes:
 - **Nachforderung** — request for additional documents (respond within the deadline given)
 - **Rejection** — you have the right to appeal (*Widerspruch*) within 1 month
 
-## Share Your Experience
 
-Have you been through this process? [Submit your report](/report) to help others in the GermanySolved community.
-
-## Related Resources
-
-> 💡 **Health Insurance Recommendation**
-> <a href="https://partner.fintiba.com/germanycases" rel="nofollow sponsored">Get covered with Fintiba →</a>
-> Public health insurance accepted by German visa authorities, designed for expats and international students.
-
-> 💡 **Banking Recommendation**
-> <a href="https://wise.prf.hn/click/camref:1101l5KK3G" rel="nofollow sponsored">Open a Wise account →</a>
-> Multi-currency account with low transfer fees – popular among expats managing finances across borders.

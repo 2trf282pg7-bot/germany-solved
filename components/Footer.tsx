@@ -16,14 +16,6 @@ const STATES = [
   { label: 'Hessen', href: '/hardest-offices/hessen' },
 ];
 
-const SITE_LINKS = [
-  { label: 'About GermanySolved', href: '/about' },
-  { label: 'Affiliate Partners', href: '/affiliate' },
-  { label: 'Privacy Policy', href: '/privacy' },
-  { label: 'Sitemap', href: '/sitemap.xml' },
-  { label: 'Submit a Report', href: '/report' },
-];
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -34,9 +26,9 @@ export default function Footer() {
               Germany<span>Solved</span>
             </Link>
             <p className="footer-brand-text">
-              A crowdsourced database helping foreigners navigate German immigration
-              bureaucracy. Real experiences from real people — submitted anonymously,
-              verified by the community.
+              Guides to navigating German immigration bureaucracy. All statistics and
+              case reports on this site are sample data for demonstration purposes.
+              This site is no longer updated.
             </p>
           </div>
 
@@ -65,28 +57,9 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-
-          <div>
-            <div className="footer-col-title">Site</div>
-            <ul className="footer-links">
-              {SITE_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="footer-link">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         <div className="footer-bottom">
-          <p className="footer-disclosure">
-            <strong style={{ color: 'rgba(255,255,255,0.6)' }}>Affiliate Disclosure:</strong>{' '}
-            GermanySolved may earn a commission from links to partner services. This does not
-            affect the editorial independence of community-submitted reports. We only recommend
-            services that are relevant to navigating German immigration.
-          </p>
           <p className="footer-copyright">© 2026 GermanySolved</p>
         </div>
       </div>

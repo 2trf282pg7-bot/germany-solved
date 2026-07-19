@@ -9,7 +9,11 @@ export const metadata: Metadata = {
     template: '%s | GermanySolved',
   },
   description:
-    'Crowdsourced database of real German immigration experiences. Find wait times, rejection reasons, and tips for every Ausländerbehörde in Germany.',
+    'Guides to German immigration offices: wait times, rejection reasons, and appointment tips. Sample data for demonstration purposes.',
+  robots: {
+    index: false,
+    follow: false,
+  },
   keywords: [
     'German visa',
     'Ausländerbehörde',
@@ -22,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'GermanySolved – Navigate German Immigration',
     description:
-      'Real experiences from foreigners navigating German immigration bureaucracy. Wait times, outcomes, tips.',
+      'Guides to German immigration bureaucracy. Wait times, outcomes, tips. Sample data for demonstration purposes.',
     type: 'website',
     locale: 'en_US',
   },

@@ -1,8 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportForm from '@/components/ReportForm';
-import { AFFILIATES, AFFILIATE_REL } from '@/lib/affiliates';
 
 interface DocumentItem {
   name: string;
@@ -197,8 +194,6 @@ export default function AcceptedDocumentsPage({ params }: { params: { slug: stri
 
   return (
     <main>
-      <UpdateBanner lastUpdated="2026-05-15" newReports={12} />
-
       <div className="page-hero">
         <div className="page-hero-inner">
           <div className="breadcrumb">
@@ -250,7 +245,7 @@ export default function AcceptedDocumentsPage({ params }: { params: { slug: stri
           )}
 
           <section className="section-block tips-section">
-            <h2 className="section-heading">Tips from the Community</h2>
+            <h2 className="section-heading">Tips</h2>
             <ul className="tips-list">
               {visa.tips.map((tip, i) => (
                 <li key={i}>{tip}</li>
@@ -271,38 +266,14 @@ export default function AcceptedDocumentsPage({ params }: { params: { slug: stri
             </ul>
           </div>
           <div className="sidebar-card">
-            <h3>Health Insurance</h3>
-            <p style={{ fontSize: '0.9375rem', color: 'var(--ink-light)', marginBottom: '12px' }}>
-              {AFFILIATES.fintiba.description}
-            </p>
-            <a
-              href={AFFILIATES.fintiba.url}
-              rel={AFFILIATE_REL}
-              target="_blank"
-              className="btn-primary"
-              style={{ display: 'inline-flex' }}
-            >
-              {AFFILIATES.fintiba.label} →
-            </a>
-          </div>
-          <div className="sidebar-card">
             <h3>Related Resources</h3>
             <ul className="sidebar-links">
               <li><Link href="/rejection-reasons/work-visa">Common Rejection Reasons</Link></li>
               <li><Link href="/waiting-times/berlin">Berlin Wait Times</Link></li>
               <li><Link href="/compare/berlin-vs-munich">Compare Offices</Link></li>
-              <li><Link href="/report">Submit Your Report</Link></li>
             </ul>
           </div>
         </aside>
-      </div>
-
-      <div className="report-form-section">
-        <div className="report-form-inner">
-          <h2>Recently Applied?</h2>
-          <p>Share which documents were actually requested at your appointment to help future applicants.</p>
-          <ReportForm />
-        </div>
       </div>
     </main>
   );

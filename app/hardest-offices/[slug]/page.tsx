@@ -1,8 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportCounter from '@/components/ReportCounter';
-import ReportForm from '@/components/ReportForm';
 
 interface OfficeRanking {
   rank: number;
@@ -86,8 +83,6 @@ export default function HardestOfficesPage({ params }: { params: { slug: string 
 
   return (
     <main>
-      <UpdateBanner lastUpdated="2026-05-20" newReports={state.offices.reduce((s, o) => s + o.reportCount, 0)} />
-
       <div className="page-hero">
         <div className="page-hero-inner">
           <div className="breadcrumb">
@@ -98,11 +93,10 @@ export default function HardestOfficesPage({ params }: { params: { slug: string 
             Hardest Immigration Offices in <em>{state.name}</em>
           </h1>
           <p className="page-subtitle">
-            Ranked by difficulty score based on {state.offices.reduce((s, o) => s + o.reportCount, 0)} community reports.
-            Higher score = longer waits + stricter requirements.
+            Ranked by difficulty score. Higher score = longer waits + stricter requirements.
+            Sample data for demonstration purposes.
           </p>
           <div style={{ display: 'flex', gap: 16, marginTop: 20, flexWrap: 'wrap' }}>
-            <ReportCounter count={state.offices.reduce((s, o) => s + o.reportCount, 0)} city={state.name} />
             <div className="stat-pill">Top difficulty: {topDifficulty}/10</div>
           </div>
         </div>
@@ -133,7 +127,6 @@ export default function HardestOfficesPage({ params }: { params: { slug: string 
                       <span>⏱ Avg wait: <strong>{office.avgWaitDays} days</strong></span>
                       <span>✅ Approval: <strong>{office.approvalRate}%</strong></span>
                       <span>❌ Rejection: <strong>{office.rejectionRate}%</strong></span>
-                      <span>📊 Reports: <strong>{office.reportCount}</strong></span>
                     </div>
                     <p className="ranking-notes">{office.notes}</p>
                   </div>
@@ -148,11 +141,11 @@ export default function HardestOfficesPage({ params }: { params: { slug: string 
             <ul className="tips-list">
               <li><strong>Average wait time</strong> — longer waits increase the score</li>
               <li><strong>Rejection rate</strong> — higher rejections = higher difficulty</li>
-              <li><strong>Document strictness</strong> — based on applicant reports of extra requests</li>
+              <li><strong>Document strictness</strong> — offices requesting extra documents score higher</li>
               <li><strong>Language barrier</strong> — offices with less English support score higher</li>
             </ul>
             <p style={{ marginTop: 12, color: 'var(--ink-mid)', fontSize: 13 }}>
-              Scores update weekly as new reports are submitted.
+              Scores are sample data for demonstration purposes.
             </p>
           </section>
         </div>
@@ -174,18 +167,9 @@ export default function HardestOfficesPage({ params }: { params: { slug: string 
               <li><Link href="/waiting-times/berlin">Berlin Wait Times</Link></li>
               <li><Link href="/waiting-times/munich">Munich Wait Times</Link></li>
               <li><Link href="/rejection-reasons/work-visa">Why Applications Get Rejected</Link></li>
-              <li><Link href="/report">Submit Your Report</Link></li>
             </ul>
           </div>
         </aside>
-      </div>
-
-      <div className="report-form-section">
-        <div className="report-form-inner">
-          <h2>Experienced One of These Offices?</h2>
-          <p>Your report helps rank offices more accurately and prepares future applicants.</p>
-          <ReportForm />
-        </div>
       </div>
     </main>
   );

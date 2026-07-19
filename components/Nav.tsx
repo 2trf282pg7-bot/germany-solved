@@ -10,23 +10,10 @@ const NAV_LINKS = [
   { label: 'Waiting Times', href: '/waiting-times/berlin' },
   { label: 'Rejection Reasons', href: '/rejection-reasons/work-visa' },
   { label: 'Cases', href: '/case/DE-101' },
-  { label: 'Report', href: '/report' },
-];
-
-const LANGUAGES = [
-  { code: 'EN', label: 'EN' },
-  { code: 'DE', label: 'DE' },
-  { code: 'ZH', label: '中文' },
-  { code: 'KO', label: '한국어' },
-  { code: 'TR', label: 'TR' },
-  { code: 'AR', label: 'AR' },
-  { code: 'UK', label: 'UK' },
-  { code: 'RU', label: 'RU' },
 ];
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeLang, setActiveLang] = useState('EN');
   const pathname = usePathname();
 
   return (
@@ -50,19 +37,6 @@ export default function Nav() {
           </div>
 
           <div className="nav-right">
-            {LANGUAGES.map((lang) => (
-              <button
-                key={lang.code}
-                className={`nav-lang-btn${activeLang === lang.code ? ' active' : ''}`}
-                onClick={() => setActiveLang(lang.code)}
-                aria-label={`Switch to ${lang.label}`}
-              >
-                {lang.label}
-              </button>
-            ))}
-            <Link href="/report" className="nav-report-btn">
-              + Report
-            </Link>
             <button
               className={`nav-hamburger${menuOpen ? ' open' : ''}`}
               onClick={() => setMenuOpen(!menuOpen)}
@@ -88,20 +62,6 @@ export default function Nav() {
             {link.label}
           </Link>
         ))}
-        <div className="nav-mobile-langs">
-          {LANGUAGES.map((lang) => (
-            <button
-              key={lang.code}
-              className={`nav-lang-btn${activeLang === lang.code ? ' active' : ''}`}
-              onClick={() => {
-                setActiveLang(lang.code);
-                setMenuOpen(false);
-              }}
-            >
-              {lang.label}
-            </button>
-          ))}
-        </div>
       </div>
     </>
   );

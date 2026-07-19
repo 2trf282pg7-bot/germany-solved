@@ -1,10 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportCounter from '@/components/ReportCounter';
-import ReportForm from '@/components/ReportForm';
 import reportsData from '@/data/reports.json';
-import type { Report } from '@/components/LatestReports';
+import type { Report } from '@/lib/reports';
 
 interface OfficeData {
   slug: string;
@@ -170,7 +167,7 @@ export default function OfficePage({ params }: { params: { slug: string } }) {
           <p className="page-subtitle">{office.description}</p>
           <div className="page-meta">
             <span className="page-meta-item">📍 {office.address}</span>
-            <ReportCounter count={office.reportCount} city={office.city} />
+            <span className="page-meta-item">Sample data for demonstration purposes</span>
           </div>
         </div>
       </div>
@@ -178,7 +175,6 @@ export default function OfficePage({ params }: { params: { slug: string } }) {
       {/* Stats Section */}
       <section className="section section-alt">
         <div className="section-inner">
-          <UpdateBanner lastUpdated="May 27, 2026" newReports={2} />
           <div
             style={{
               display: 'grid',
@@ -188,10 +184,9 @@ export default function OfficePage({ params }: { params: { slug: string } }) {
             }}
           >
             {[
-              { label: 'Avg. Wait Time', value: `${office.avgWaitDays} days`, note: 'from application to decision' },
-              { label: 'Approval Rate', value: `${office.approvalRate}%`, note: `based on ${office.reportCount} reports` },
-              { label: 'Appt. Wait', value: `${office.appointmentWaitWeeks} weeks`, note: 'to get an appointment' },
-              { label: 'Reports', value: String(office.reportCount), note: 'from the community' },
+              { label: 'Avg. Wait Time', value: `${office.avgWaitDays} days`, note: 'sample data' },
+              { label: 'Approval Rate', value: `${office.approvalRate}%`, note: 'sample data' },
+              { label: 'Appt. Wait', value: `${office.appointmentWaitWeeks} weeks`, note: 'sample data' },
             ].map((stat) => (
               <div
                 key={stat.label}
@@ -250,7 +245,7 @@ export default function OfficePage({ params }: { params: { slug: string } }) {
                     marginBottom: '16px',
                   }}
                 >
-                  Community Tips
+                  Tips
                 </h2>
                 <div className="checklist">
                   {office.tips.map((tip) => (
@@ -281,7 +276,7 @@ export default function OfficePage({ params }: { params: { slug: string } }) {
                     marginBottom: '16px',
                   }}
                 >
-                  Common Issues Reported
+                  Common Issues
                 </h2>
                 <div className="checklist">
                   {office.commonIssues.map((issue) => (
@@ -339,8 +334,6 @@ export default function OfficePage({ params }: { params: { slug: string } }) {
                   </div>
                 </div>
               )}
-
-              <ReportForm />
             </div>
 
             {/* Sidebar */}

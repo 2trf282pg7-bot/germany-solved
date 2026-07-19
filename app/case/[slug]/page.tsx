@@ -3,9 +3,6 @@ import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import UpdateBanner from '@/components/UpdateBanner';
-import ReportForm from '@/components/ReportForm';
-import ConvertKitForm from '@/components/ConvertKitForm';
 
 interface CaseFrontmatter {
   id: string;
@@ -76,9 +73,6 @@ export async function generateMetadata({
     description: `Immigration case report: ${fm.visaType} at ${fm.office}. Outcome: ${fm.outcome}. Wait time: ${fm.waitDays} days.`,
   };
 }
-
-const MID_FORM_ID = process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID ?? '';
-const END_FORM_ID = process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID_2 ?? MID_FORM_ID;
 
 export default function CasePage({ params }: { params: { slug: string } }) {
   const caseData = getCaseData(params.slug);
@@ -156,17 +150,6 @@ export default function CasePage({ params }: { params: { slug: string } }) {
           <div className="detail-layout">
             {/* Main Content */}
             <div>
-              <UpdateBanner lastUpdated="May 27, 2026" newReports={3} />
-
-              {/* Mid-article email capture */}
-              <ConvertKitForm
-                formId={MID_FORM_ID}
-                title="Get notified when new cases are added"
-                description="We add new verified case reports weekly. Get an alert when cases from your city or visa type are published."
-                buttonText="Notify Me"
-                variant="mid"
-              />
-
               <div
                 style={{
                   background: 'var(--white)',
@@ -193,40 +176,6 @@ export default function CasePage({ params }: { params: { slug: string } }) {
                 />
               </div>
 
-              {/* Report Form */}
-              <div style={{ marginTop: '40px' }}>
-                <h2
-                  style={{
-                    fontFamily: 'var(--font-serif)',
-                    fontSize: '1.5rem',
-                    fontWeight: 600,
-                    color: 'var(--ink)',
-                    marginBottom: '8px',
-                    textAlign: 'center',
-                  }}
-                >
-                  Had a similar experience?
-                </h2>
-                <p
-                  style={{
-                    textAlign: 'center',
-                    color: 'var(--ink-mid)',
-                    marginBottom: '24px',
-                  }}
-                >
-                  Add your report to help others at {fm.office}.
-                </p>
-                <ReportForm />
-              </div>
-
-              {/* End-of-article email capture (before disclaimer) */}
-              <ConvertKitForm
-                formId={END_FORM_ID}
-                title="Weekly Germany immigration updates"
-                description="Real case summaries, wait time trends, and tips from expats navigating German bureaucracy. Every Monday."
-                buttonText="Subscribe Free"
-                variant="end"
-              />
             </div>
 
             {/* Sidebar */}
@@ -279,19 +228,13 @@ export default function CasePage({ params }: { params: { slug: string } }) {
                   >
                     → Wait times in {fm.city}
                   </Link>
-                  <Link
-                    href="/report"
-                    style={{ fontSize: '0.9375rem', color: 'var(--accent)', fontWeight: 500 }}
-                  >
-                    → Submit your report
-                  </Link>
                 </div>
               </div>
 
               <div className="alert alert-info">
                 <span className="alert-icon">ℹ️</span>
                 <p className="alert-text">
-                  This report was submitted by a community member. Experiences may vary.
+                  This is a sample case report for demonstration purposes.
                   Always verify requirements with the official office.
                 </p>
               </div>

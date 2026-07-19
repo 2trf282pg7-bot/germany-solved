@@ -5,7 +5,7 @@ import { getAllArticles } from '@/lib/articles';
 export const metadata: Metadata = {
   title: 'Articles & Guides',
   description:
-    'Practical guides on German immigration, visas, and bureaucracy — written from real community experiences.',
+    'Practical guides on German immigration, visas, and bureaucracy.',
 };
 
 function formatDate(value: string): string {
@@ -34,8 +34,8 @@ export default function ArticlesPage() {
           <div className="page-eyebrow">Guides</div>
           <h1 className="page-title">Articles &amp; Guides</h1>
           <p className="page-subtitle">
-            Practical guides on German immigration, visas, and bureaucracy — written from real
-            community experiences, not generic legal advice.
+            Practical guides on German immigration, visas, and bureaucracy — not generic
+            legal advice.
           </p>
         </div>
       </div>
